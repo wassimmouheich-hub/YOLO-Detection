@@ -30,6 +30,6 @@ L'objectif était de déployer le modèle **YOLOv3** (You Only Look Once) pour d
 
 1. **Clonage :** `git clone https://github.com/wassimmouheich-hub/YOLO-Detection.git`
 2. **Dépendances :** `pip install tensorflow pillow numpy matplotlib`
-3. **Modèle :** Télécharger le fichier `yolo.h5`:https:( //drive.google.com/file/d/1PysipL3wX46OgvIWb4BW5HLBmPGKCP4l/view?usp=sharing ) 
+3. **Modèle :** Télécharger le fichier `yolo.h5`:( https://drive.google.com/file/d/1PysipL3wX46OgvIWb4BW5HLBmPGKCP4l/view?usp=sharing ) 
 (non inclus sur GitHub car > 100Mo) et le placer dans le même dossier que le projet.
 4. **Exécution :** Lancer le notebook `predict.ipynb` pour générer les prédictions.

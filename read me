@@ -6,7 +6,7 @@ Ce projet démontre ma capacité à gérer un pipeline complet de Computer Visio
 
 ---
 résultat :
-![Résultat de la détection de véhicules](resultat_yolo.png)
+![Résultat de la détection de véhicules](resultat_yolo.png.png)
 
 ## 🎯 Aperçu du Projet
 L'objectif était de déployer le modèle **YOLOv3** (You Only Look Once) pour détecter des objets en temps réel. Le défi majeur a consisté à adapter les sorties brutes du réseau de neurones en données géométriques exploitables.

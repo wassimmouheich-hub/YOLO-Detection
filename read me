@@ -1,16 +1,15 @@
-# 🚗 YOLOv3 Vehicle Detection Pipeline
+# YOLOv3 Vehicle Detection Pipeline
 
 > **Implémentation d'un système de reconnaissance visuelle pour l'identification de véhicules en milieu urbain.**
 
 Ce projet démontre ma capacité à gérer un pipeline complet de Computer Vision, de la manipulation de tenseurs complexes à l'optimisation des résultats pour un usage produit.
 
 ---
-## 🎯 Aperçu du Projet
+## Projet:
 L'objectif était de déployer le modèle **YOLOv3** (You Only Look Once) pour détecter des objets en temps réel. Le défi majeur a consisté à adapter les sorties brutes du réseau de neurones en données géométriques exploitables.
 
 
-## 🛠️ Expertise Technique & Résolution de Problèmes
-j'ai supervisé et réalisé les étapes suivantes :
+##j'ai supervisé et réalisé les étapes suivantes :
 
 * **Décodage de Tenseurs (yolo_head) :** Réimplémentation de la fonction de décodage pour transformer les "logits" de sortie (grilles 19x19, 38x38, 76x76) en coordonnées de boîtes englobantes.
 * **Gestion du Broadcasting & Reshaping :** Résolution de conflits de dimensions de données sous TensorFlow (ajustement des ancres et des classes).
@@ -19,7 +18,7 @@ j'ai supervisé et réalisé les étapes suivantes :
 
 ---
 
-## 🚀 Stack Technique
+## Stack Technique
 
 * **Langage :** Python 3
 * **Frameworks :** TensorFlow 2.x, Keras
@@ -27,7 +26,7 @@ j'ai supervisé et réalisé les étapes suivantes :
 
 ---
 
-## 📂 Installation et Utilisation
+## Installation et Utilisation
 
 1. **Clonage :** `git clone https://github.com/wassimmouheich-hub/YOLO-Detection.git`
 2. **Dépendances :** `pip install tensorflow pillow numpy matplotlib`

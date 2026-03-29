@@ -1,0 +1,37 @@
+# 🚗 YOLOv3 Vehicle Detection Pipeline
+
+> **Implémentation d'un système de reconnaissance visuelle pour l'identification de véhicules en milieu urbain.**
+
+Ce projet démontre ma capacité à gérer un pipeline complet de Computer Vision, de la manipulation de tenseurs complexes à l'optimisation des résultats pour un usage produit.
+
+---
+
+## 🎯 Aperçu du Projet
+L'objectif était de déployer le modèle **YOLOv3** (You Only Look Once) pour détecter des objets en temps réel. Le défi majeur a consisté à adapter les sorties brutes du réseau de neurones en données géométriques exploitables.
+
+
+## 🛠️ Expertise Technique & Résolution de Problèmes
+j'ai supervisé et réalisé les étapes suivantes :
+
+* **Décodage de Tenseurs (yolo_head) :** Réimplémentation de la fonction de décodage pour transformer les "logits" de sortie (grilles 19x19, 38x38, 76x76) en coordonnées de boîtes englobantes.
+* **Gestion du Broadcasting & Reshaping :** Résolution de conflits de dimensions de données sous TensorFlow (ajustement des ancres et des classes).
+* **Post-Processing (NMS) :** Mise en place d'un algorithme de *Non-Max Suppression* pour filtrer les détections redondantes et garantir une interface utilisateur propre.
+* **Infrastructure de Données :** Stratégie de séparation entre le code source (GitHub) et les poids du modèle (Large Files > 200Mo) pour optimiser le déploiement.
+
+---
+
+## 🚀 Stack Technique
+
+* **Langage :** Python 3
+* **Frameworks :** TensorFlow 2.x, Keras
+* **Librairies :** NumPy (calcul matriciel), Pillow (image processing), Matplotlib
+
+---
+
+## 📂 Installation et Utilisation
+
+1. **Clonage :** `git clone https://github.com/wassimmouheich-hub/YOLO-Detection.git`
+2. **Dépendances :** `pip install tensorflow pillow numpy matplotlib`
+3. **Modèle :** Télécharger le fichier `yolo.h5`:https:( //drive.google.com/file/d/1PysipL3wX46OgvIWb4BW5HLBmPGKCP4l/view?usp=sharing ) 
+(non inclus sur GitHub car > 100Mo) et le placer dans le même dossier que le projet.
+4. **Exécution :** Lancer le notebook `predict.ipynb` pour générer les prédictions.
